@@ -12,7 +12,7 @@ export const locales = {
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://otterscale.com',
+	site: 'https://otterscale.io',
 	integrations: [
 		starlight({
 			title: 'OtterScale',
