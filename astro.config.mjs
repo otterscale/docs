@@ -143,7 +143,7 @@ export default defineConfig({
 					{
 						base: 'api',
 						schema:
-							'https://raw.githubusercontent.com/otterscale/otterscale/refs/heads/main/api/openapi.yaml'
+							'https://raw.githubusercontent.com/otterscale/api/refs/heads/main/openapi/openapi.yaml'
 					}
 				])
 			]
