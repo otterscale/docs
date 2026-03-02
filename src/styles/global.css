@@ -52,3 +52,11 @@ starlight-lang-select svg {
 starlight-lang-select select {
 	@apply ml-0.5;
 }
+
+.site-title img {
+	height: calc(var(--sl-nav-height) - 3 * var(--sl-nav-pad-y));
+	width: auto;
+	max-width: 100%;
+	object-fit: contain;
+	object-position: 0 50%;
+}

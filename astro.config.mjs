@@ -17,9 +17,11 @@ export default defineConfig({
 		starlight({
 			title: 'OtterScale',
 			logo: {
-				src: './src/assets/logo.png'
+				light: './src/assets/logo-light.svg',
+				dark: './src/assets/logo-dark.svg',
+				replacesTitle: true
 			},
-			favicon: '/logo.png',
+			favicon: '/otter-1.png',
 			social: [
 				{
 					icon: 'github',
