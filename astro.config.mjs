@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightVersions from 'starlight-versions';
 import tailwindcss from '@tailwindcss/vite';
 import starlightOpenAPI, { openAPISidebarGroups } from 'starlight-openapi';
 import Icons from 'unplugin-icons/vite';
@@ -140,6 +141,9 @@ export default defineConfig({
 			],
 			customCss: ['./src/styles/global.css'],
 			plugins: [
+				starlightVersions({
+					versions: [{ slug: 'v0.6' }]
+				}),
 				// Generate the OpenAPI documentation pages.
 				starlightOpenAPI([
 					{
